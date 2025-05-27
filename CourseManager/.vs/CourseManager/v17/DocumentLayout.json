@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\CourseManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|solutionrelative:CourseManager\\CourseManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CourseManager.cpp",
+              "DocumentMoniker": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\CourseManager.cpp",
+              "RelativeDocumentMoniker": "CourseManager\\CourseManager.cpp",
+              "ToolTip": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\CourseManager.cpp",
+              "RelativeToolTip": "CourseManager\\CourseManager.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-27T10:50:45.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

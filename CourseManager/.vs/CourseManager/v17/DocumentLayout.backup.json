@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|solutionrelative:CourseManager\\Student.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|solutionrelative:CourseManager\\Student.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Teacher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|solutionrelative:CourseManager\\Teacher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Teacher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|solutionrelative:CourseManager\\Teacher.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|solutionrelative:CourseManager\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|solutionrelative:CourseManager\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|solutionrelative:CourseManager\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cpp",
+              "DocumentMoniker": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Student.cpp",
+              "RelativeDocumentMoniker": "CourseManager\\Student.cpp",
+              "ToolTip": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Student.cpp",
+              "RelativeToolTip": "CourseManager\\Student.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-27T11:47:31.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.h",
+              "DocumentMoniker": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Student.h",
+              "RelativeDocumentMoniker": "CourseManager\\Student.h",
+              "ToolTip": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Student.h",
+              "RelativeToolTip": "CourseManager\\Student.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-27T11:45:54.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Teacher.cpp",
+              "DocumentMoniker": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Teacher.cpp",
+              "RelativeDocumentMoniker": "CourseManager\\Teacher.cpp",
+              "ToolTip": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Teacher.cpp",
+              "RelativeToolTip": "CourseManager\\Teacher.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-27T11:43:26.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Teacher.h",
+              "DocumentMoniker": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Teacher.h",
+              "RelativeDocumentMoniker": "CourseManager\\Teacher.h",
+              "ToolTip": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Teacher.h",
+              "RelativeToolTip": "CourseManager\\Teacher.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-27T11:41:07.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Admin.h",
+              "DocumentMoniker": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Admin.h",
+              "RelativeDocumentMoniker": "CourseManager\\Admin.h",
+              "ToolTip": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\Admin.h",
+              "RelativeToolTip": "CourseManager\\Admin.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-27T11:35:28.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cpp",
+              "DocumentMoniker": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\User.cpp",
+              "RelativeDocumentMoniker": "CourseManager\\User.cpp",
+              "ToolTip": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\User.cpp",
+              "RelativeToolTip": "CourseManager\\User.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-27T11:29:44.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.h",
+              "DocumentMoniker": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\User.h",
+              "RelativeDocumentMoniker": "CourseManager\\User.h",
+              "ToolTip": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\User.h",
+              "RelativeToolTip": "CourseManager\\User.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-27T11:26:51.829Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13,10 +13,57 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{749035fc-99ed-4e48-8ef0-8db47379f93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Users">
+      <UniqueIdentifier>{f3cab9df-c062-4283-8479-0fe0298bf3a5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CourseManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Users</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.cpp">
+      <Filter>Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Teacher.cpp">
+      <Filter>Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Users</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyString.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector.hpp">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Users</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <Filter>Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Teacher.h">
+      <Filter>Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Users</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

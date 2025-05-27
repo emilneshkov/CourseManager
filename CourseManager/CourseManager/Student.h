@@ -13,7 +13,8 @@ public:
 	Student(int id,
 		const MyString& firstName,
 		const MyString& lastName,
-		const MyString& email,
 		const MyString& password);
+
+	User* clone() const override;
 };
 

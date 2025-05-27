@@ -74,16 +74,14 @@ void User::saveToFile(std::ofstream& ofs) const
 		<< lastName << ' '
 		<< email << ' '
 		<< password << ' '
-		<< inbox;
-
-	if (role != "Student") {
-		ofs << '\n';
-	}
+		<< inbox
+		<< '\n';
 }
 
 void User::loadFromFile(std::ifstream& ifs)
 {
 	MyString roleStr;
+
 	ifs >> id
 		>> roleStr
 		>> firstName

@@ -4,6 +4,11 @@ Student::Student(int id, const MyString& firstName, const MyString& lastName, co
 {
 }
 
-Student::Student(int id, const MyString& firstName, const MyString& lastName, const MyString& email, const MyString& password) :User(id, firstName, lastName, email, password, MyVector<Message>(), Role::Student)
+Student::Student(int id, const MyString& firstName, const MyString& lastName, const MyString& password) :User(id, firstName, lastName, MyString(), password, MyVector<Message>(), Role::Student)
 {
+}
+
+User* Student::clone() const
+{
+    return new Student(*this);
 }

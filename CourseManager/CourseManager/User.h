@@ -15,7 +15,9 @@ public:
 		const MyVector<Message>& inbox,
 		Role role);
 
-	virtual ~User() = default;
+	~User() = default;
+
+	virtual User* clone() const = 0;
 
 	int getId() const;
 	const MyString& getFirstName() const;
@@ -31,8 +33,8 @@ public:
 	const MyVector<Message>& getInbox() const;
 	void clearInbox();
 
-	virtual void saveToFile(std::ofstream& ofs)const;
-	virtual void loadFromFile(std::ifstream& ifs);
+	void saveToFile(std::ofstream& ofs)const;
+	void loadFromFile(std::ifstream& ifs);
 
 private:
 	int id;

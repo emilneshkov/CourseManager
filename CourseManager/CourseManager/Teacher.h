@@ -14,7 +14,8 @@ public:
     Teacher(int id, 
         const MyString& firstName, 
         const MyString& lastName,
-        const MyString& email, 
         const MyString& defaultPass);
+
+    User* clone() const override;
 };
 

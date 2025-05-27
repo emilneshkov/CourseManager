@@ -20,7 +20,7 @@ void MyString::copyDynamicMemory(const MyString& other)
 {
 	capacity = other.capacity;
 
-	string = new char[capacity];
+	string = new char[capacity+1];
 	strcpy(string, other.string);
 
 	size = other.size;
@@ -196,6 +196,19 @@ const char* MyString::getString() const
 	return string;
 }
 
+int MyString::parseToInt() const
+{
+	int result = 0;
+	for (size_t i = 0; i < getSize(); ++i) {
+		char c = string[i];
+		if (c < '0' || c > '9') {
+			break;
+		}
+		result = result * 10 + (c - '0');
+	}
+	return result;
+}
+
 size_t MyString::getSize() const
 {
 	return size;
@@ -242,7 +255,7 @@ std::istream& operator>>(std::istream& is, MyString& str)
 	is.ignore();
 
 	str.capacity = size * 2;
-	str.string = new char[str.capacity];
+	str.string = new char[str.capacity+1];
 
 	is.getline(str.string, size);
 

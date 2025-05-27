@@ -36,6 +36,8 @@ public:
 	void append(const MyString& other);
 	const char* getString()const;
 
+	int parseToInt()const;
+
 	char& operator[](unsigned index);
 	const char& operator[](unsigned index) const;
 

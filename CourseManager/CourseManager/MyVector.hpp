@@ -17,7 +17,7 @@ private:
 
 public:
 	// Constructors / Destructor / Assignment
-	MyVector();
+	MyVector(); 
 	MyVector(const MyVector& other);
 	MyVector(MyVector&& other) noexcept;
 	explicit MyVector(size_t capacity);
@@ -270,7 +270,7 @@ void MyVector<T>::reserve(size_t newCapacity) {
 template<typename T>
 void MyVector<T>::pushBack(const T& element) {
 	if (size == capacity) {
-		resize(capacity * CONSTANTS::DEF_MULTIPLIER);
+		resize(capacity == 0 ? 1 : capacity * CONSTANTS::DEF_MULTIPLIER);
 	}
 	vector[size] = element;
 	size++;
@@ -286,10 +286,8 @@ void MyVector<T>::popBack() {
 
 template<typename T>
 void MyVector<T>::clear() {
-	delete[] vector;
-
-	capacity = 1;
-	vector = new T[capacity];
+	for (size_t i = 0; i < size; ++i)
+		vector[i].~T();
 	size = 0;
 }
 
@@ -350,12 +348,21 @@ bool MyVector<T>::operator==(const MyVector& other) const {
 template <typename D>
 inline std::istream& operator>>(std::istream& is, MyVector<D>& vector)
 {
-	is >> vector.size;
-	vector.resize(vector.allocateCapacity(vector.getSize()));
+	size_t newSize;
+	if (!(is >> newSize)) {
+		return is;
+	}
 
-	for (size_t i = 0; i < vector.getSize(); i++)
-	{
-		is >> vector.vector[i];
+	vector.clear();
+
+	if (newSize > vector.getCapacity()) {
+		vector.reserve(newSize);
+	}
+
+	D temp;
+	for (size_t i = 0; i < newSize; ++i) {
+		is >> temp;
+		vector.pushBack(temp);
 	}
 
 	return is;
@@ -364,11 +371,11 @@ inline std::istream& operator>>(std::istream& is, MyVector<D>& vector)
 template <typename D>
 inline std::ostream& operator<<(std::ostream& os, const MyVector<D>& vector)
 {
+	os << vector.getSize();
 	for (size_t i = 0; i < vector.getSize(); i++)
 	{
-		os << vector.vector[i] << " ";
+		os << " " << vector.vector[i];
 	}
 
-	os << std::endl;
 	return os;
 }

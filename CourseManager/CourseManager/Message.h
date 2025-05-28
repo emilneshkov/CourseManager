@@ -11,6 +11,7 @@ class Message
 public:
 	Message();
 	Message(int senderId, MyString content);
+	Message& operator=(const Message& other);
 
 	int getSenderId() const;
 	const MyString& getContent() const;

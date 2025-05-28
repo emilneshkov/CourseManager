@@ -20,7 +20,7 @@ void MyString::copyDynamicMemory(const MyString& other)
 {
 	capacity = other.capacity;
 
-	string = new char[capacity+1];
+	string = new char[capacity + 1];
 	strcpy(string, other.string);
 
 	size = other.size;
@@ -255,9 +255,9 @@ std::istream& operator>>(std::istream& is, MyString& str)
 	is.ignore();
 
 	str.capacity = size * 2;
-	str.string = new char[str.capacity+1];
+	str.string = new char[str.capacity + 1];
 
-	is.getline(str.string, size);
+	is.read(str.string, size + 1);
 
 	str.size = size;
 
@@ -272,7 +272,17 @@ std::ostream& operator<<(std::ostream& os, const MyString& str)
 
 bool operator==(const MyString& lhs, const MyString& rhs)
 {
-	return strcmp(lhs.getString(), rhs.getString()) == 0;
+	if (lhs.getSize() != rhs.getSize()) {
+		return false;
+	}
+
+	for (size_t i = 0; i < lhs.getSize(); i++)
+	{
+		if (lhs.getString()[i] != rhs.getString()[i]) {
+			return false;
+		}
+	}
+	return true;
 }
 
 bool operator!=(const MyString& lhs, const MyString& rhs)

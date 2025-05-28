@@ -11,9 +11,9 @@ void UserRepository::free()
 
 	delete[] users;
 
-	users = nullptr;
 	size = 0;
-	capacity = 0;
+	capacity = 8;
+	users = new User * [capacity];
 }
 
 void UserRepository::copyFrom(const UserRepository& other)
@@ -134,7 +134,7 @@ int UserRepository::getUsersCount() const
 
 int UserRepository::getNewUserId() const
 {
-	return size + 1;
+	return size;
 }
 
 void UserRepository::load(const MyString& filename)
@@ -163,26 +163,28 @@ void UserRepository::load(const MyString& filename)
 		return;
 	}
 
-	Admin defaultAdmin(
-		0,
-		MyString("Admin"),
-		MyString(""),
-		MyString(""),
-		MyString("0000"),
-		MyVector<Message>{});
-
-	add(defaultAdmin);
-
 	size_t size = 0;
 	ifs >> size;
+	ifs.ignore();
+
+	if (size == 0) {
+		Admin defaultAdmin(
+			0,
+			MyString("Admin"),
+			MyString(""),
+			MyString(""),
+			MyString("0000"),
+			MyVector<Message>{});
+
+		add(defaultAdmin);
+
+		return;
+	}
 
 	for (size_t i = 0; i < size; i++)
 	{
 		User* user = UserFactory::createFromStream(ifs);
-		if (!user) {
 
-			break;
-		}
 		add(*user);
 	}
 }
@@ -201,7 +203,7 @@ void UserRepository::save(const MyString& filename) const
 		return;
 	}
 
-	ofs << size << "\n";
+	ofs << size << std::endl;
 
 	for (size_t i = 0; i < size; i++)
 	{

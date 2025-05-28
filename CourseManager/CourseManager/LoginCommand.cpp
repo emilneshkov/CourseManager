@@ -7,6 +7,11 @@ void LoginCommand::execute(const MyVector<MyString>& arguments, CourseManagerApp
 		return;
 	}
 
+	if(courseApp.getCurrentUser()){
+		std::cout << "A user is already logged!\n";
+		return;
+	}
+
 	int id = arguments[1].parseToInt();
 	const MyString& pwd = arguments[2];
 
@@ -19,5 +24,4 @@ void LoginCommand::execute(const MyVector<MyString>& arguments, CourseManagerApp
 	}
 	courseApp.setCurrentUser(&user);
 	std::cout << "Login successful!\n";
-
 }

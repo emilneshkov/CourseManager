@@ -15,6 +15,16 @@ Message::Message(int senderId, MyString content)
 	this->timestamp = time(nullptr);
 }
 
+Message& Message::operator=(const Message& other)
+{
+	if (this != &other) {
+		senderId = other.senderId;  
+		content = other.content;  
+		timestamp = other.timestamp;
+	}
+	return *this;
+}
+
 int Message::getSenderId() const
 {
 	return senderId;

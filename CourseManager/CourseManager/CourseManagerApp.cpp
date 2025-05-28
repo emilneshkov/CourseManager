@@ -33,6 +33,7 @@ void CourseManagerApp::commandLoop()
 		if (!std::cin) break;
 		if (line.empty()) continue;
 		handleCommand(line);
+		saveData();
 	}
 }
 MyVector<MyString> CourseManagerApp::split(const MyString& line) const

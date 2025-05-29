@@ -2,7 +2,7 @@
 #include "CommandFactory.h"
 
 namespace CONSTANTS {
-	MyString userFile = "users.txt";
+	MyString userFile = "users.dat";
 	MyString coursesFile = "courses.txt";
 }
 

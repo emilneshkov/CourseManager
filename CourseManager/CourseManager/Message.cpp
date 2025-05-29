@@ -8,11 +8,18 @@ Message::Message()
 	this->timestamp = time(nullptr);
 }
 
-Message::Message(int senderId, MyString content)
+Message::Message(int senderId, const MyString& content)
 {
 	this->senderId = senderId;
 	this->content = content;
 	this->timestamp = time(nullptr);
+}
+
+Message::Message(int senderId, const MyString& content, const time_t& timestampt)
+{
+	this->senderId = senderId;
+	this->content = content;
+	this->timestamp = timestampt;
 }
 
 Message& Message::operator=(const Message& other)

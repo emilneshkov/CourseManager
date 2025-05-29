@@ -141,13 +141,13 @@ void UserRepository::load(const MyString& filename)
 {
 	free();
 
-	std::ifstream ifs(filename.getString());
+	std::ifstream ifs(filename.getString(),std::ios::binary);
 
 	if (!ifs.is_open()) {
 
 		std::cout << "Users file \"" << filename.getString() << "\" not found. Creating a new file.\n";
 
-		std::ofstream ofs(filename.getString());
+		std::ofstream ofs(filename.getString(), std::ios::binary);
 		ofs.close();
 
 		Admin defaultAdmin(
@@ -191,13 +191,13 @@ void UserRepository::load(const MyString& filename)
 
 void UserRepository::save(const MyString& filename) const
 {
-	std::ofstream ofs(filename.getString());
+	std::ofstream ofs(filename.getString(), std::ios::binary);
 
 	if (!ofs.is_open()) {
 
 		std::cout << "Users file \"" << filename.getString() << "\" not found. Creating a new file.\n";
 
-		std::ofstream newFile(filename.getString());
+		std::ofstream newFile(filename.getString(), std::ios::binary);
 		newFile.close();
 
 		return;

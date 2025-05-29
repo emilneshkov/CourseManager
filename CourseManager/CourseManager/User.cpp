@@ -60,22 +60,43 @@ void User::clearInbox() {
 
 void User::saveToFile(std::ofstream& ofs) const
 {
-	MyString role;
+		// 1) Записваме id
+	ofs.write(reinterpret_cast<const char*>(&id), sizeof(id));
 
-	switch (this->getRole()) {
-	case User::Role::Admin:   role = "Admin"; break;
-	case User::Role::Teacher: role = "Teacher"; break;
-	case User::Role::Student: role = "Student"; break;
+	// 2) Записваме role като int
+	int r = static_cast<int>(role);
+	ofs.write(reinterpret_cast<const char*>(&r), sizeof(r));
+
+	// 3) Lambda за низове
+	auto writeString = [&](const MyString& s) {
+		size_t len = s.getSize();
+		ofs.write(reinterpret_cast<const char*>(&len), sizeof(len));
+		ofs.write(s.getString(), len);
+		};
+
+	// 4) Записваме личните полета
+	writeString(firstName);
+	writeString(lastName);
+	writeString(email);
+	writeString(password);
+
+	// 5) Записваме inbox
+	size_t msgCount = inbox.getSize();
+	ofs.write(reinterpret_cast<const char*>(&msgCount), sizeof(msgCount));
+	for (size_t i = 0; i < msgCount; ++i) {
+		const Message& m = inbox[i];
+
+		// 5.1) senderId
+		int from = m.getSenderId();
+		ofs.write(reinterpret_cast<const char*>(&from), sizeof(from));
+
+		// 5.2) content
+		writeString(m.getContent());
+
+		// 5.3) timestamp (time_t)
+		time_t t = m.getTimestamp();
+		ofs.write(reinterpret_cast<const char*>(&t), sizeof(t));
 	}
-
-	ofs << id << ' '
-		<< role << ' '
-		<< firstName << ' '
-		<< lastName << ' '
-		<< email << ' '
-		<< password << ' '
-		<< inbox
-		<< '\n';
 }
 
 void User::loadFromFile(std::ifstream& ifs)

@@ -22,6 +22,7 @@ public:
 	int getTeacherId() const;
 	const MyString& getEnrollmentPassword() const;
 	const MyVector<int>& getStudentIds()const;
+	MyVector<int>& getStudentIds();
 
 	bool isStudentEnrolled(int studentId)const;
 	bool canEnroll(const MyString& password) const;

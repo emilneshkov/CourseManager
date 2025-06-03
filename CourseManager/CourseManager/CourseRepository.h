@@ -17,6 +17,7 @@ public:
 	int getCoursesCount() const;
 	int getNewCourseId()const;
 	const MyVector<Course>& getAll() const;
+	MyVector<Course>& getAll();
 
 	void load(const MyString& filename);
 	void save(const MyString& filename) const;

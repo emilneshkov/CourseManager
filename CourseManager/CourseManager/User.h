@@ -25,6 +25,7 @@ public:
 	const MyString& getEmail() const;
 	const MyString& getPassword() const;
 	Role getRole() const;
+	MyString getRoleAsString() const;
 
 	bool checkPassword(const MyString& pass) const;
 	void changePassword(const MyString& newPass);

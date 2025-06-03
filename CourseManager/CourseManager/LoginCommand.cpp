@@ -25,7 +25,7 @@ void LoginCommand::execute(const MyVector<MyString>& arguments, CourseManagerApp
 		courseApp.setCurrentUser(&user);
 		std::cout << "Login successful!\n";
 		if (user.getLastName().getSize() > 0) {
-			std::cout << user.getFirstName().getString() << " | " << user.getLastName().getString() << " | " << user.getId() << "\n";
+			std::cout << user.getFirstName().getString() << " " << user.getLastName().getString() << " | "<< user.getRoleAsString().getString()<<" | " << user.getId() << "\n";
 		}
 	}
 	catch (const std::exception& ex) {

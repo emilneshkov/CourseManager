@@ -3,6 +3,7 @@
 #include "LogoutCommand.h"
 #include "AddTeacherCommand.h"
 #include "AddStudentCommand.h"
+#include "RemoveUserCommand.h"
 #include "MessageAllCommand.h"
 #include "MailboxCommand.h"
 #include "ClearMailboxCommand.h"
@@ -19,6 +20,7 @@
 #include "GradeAssignmentCommand.h"
 
 
+
 Command* CommandFactory::create(const MyString& commandType)
 {
 	if (strcmp(commandType.getString(), "login") == 0) {
@@ -32,6 +34,9 @@ Command* CommandFactory::create(const MyString& commandType)
 	}
 	else if (strcmp(commandType.getString(), "add_student") == 0) {
 		return new AddStudentCommand();
+	}
+	else if (strcmp(commandType.getString(), "remove_user") == 0) {
+		return new RemoveUserCommand();
 	}
 	else if (strcmp(commandType.getString(), "message_all") == 0) {
 		return new MessageAllCommand();

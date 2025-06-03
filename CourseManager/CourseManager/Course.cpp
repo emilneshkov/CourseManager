@@ -47,6 +47,11 @@ const MyVector<int>& Course::getStudentIds() const
 	return studentIds;
 }
 
+ MyVector<int>& Course::getStudentIds()
+{
+	return studentIds;
+}
+
 bool Course::isStudentEnrolled(int studentId) const
 {
 	if (studentIds.contains(studentId)) {

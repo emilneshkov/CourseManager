@@ -75,6 +75,11 @@ const MyVector<Course>& CourseRepository::getAll() const
 	return courses;
 }
 
+MyVector<Course>& CourseRepository::getAll()
+{
+	return courses;
+}
+
 void CourseRepository::save(const MyString& filename) const
 {
 	std::ofstream ofs(filename.getString(), std::ios::binary);

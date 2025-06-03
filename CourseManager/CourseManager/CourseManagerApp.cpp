@@ -3,19 +3,19 @@
 
 namespace CONSTANTS {
 	MyString userFile = "users.dat";
-	MyString coursesFile = "courses.txt";
+	MyString coursesFile = "courses.dat";
 }
 
 void CourseManagerApp::loadData()
 {
 	userRepo.load(CONSTANTS::userFile);
-	//courseRepo.load(CONSTANTS::coursesFile);
+	courseRepo.load(CONSTANTS::coursesFile);
 }
 
 void CourseManagerApp::saveData()
 {
 	userRepo.save(CONSTANTS::userFile);
-	//courseRepo.save(CONSTANTS::coursesFile);
+	courseRepo.save(CONSTANTS::coursesFile);
 }
 
 void CourseManagerApp::commandLoop()
@@ -72,7 +72,7 @@ void CourseManagerApp::handleCommand(const MyString& line)
 	Command* command = CommandFactory::create(arguments[0]);
 
 	if (!command) {
-		std::cout << "Unknown command: " << arguments[0] << std::endl;
+		std::cout << "Unknown command: " << arguments[0].getString() << std::endl;
 		return;
 	}
 
@@ -83,6 +83,11 @@ void CourseManagerApp::handleCommand(const MyString& line)
 UserRepository& CourseManagerApp::getUserRepo()
 {
 	return userRepo;
+}
+
+CourseRepository& CourseManagerApp::getCourseRepo()
+{
+	return courseRepo;
 }
 
 User* CourseManagerApp::getCurrentUser() const

@@ -19,12 +19,13 @@ void AddTeacherCommand::execute(const MyVector<MyString>& arguments, CourseManag
 	const MyString& lastName = arguments[2];
 	const MyString& defaultPass = arguments[3];
 
+	try {
+		int newId = admin->addTeacher(firstName, lastName, defaultPass,
+			courseApp.getUserRepo());
 
-	int newId = admin->addTeacher(firstName, lastName, defaultPass,
-		courseApp.getUserRepo());
-
-	std::cout << "Added teacher "
-		<< firstName.getString() << " " << lastName.getString()
-		<< " with ID " << newId << "!\n";
-
+		std::cout << "Added teacher "<< firstName.getString() << " " << lastName.getString()<< " with ID " << newId << "!\n";
+	}
+	catch(const std::exception& ex){
+		std::cout << "Failed to add teacher: " << ex.what() << "\n";
+	}
 }

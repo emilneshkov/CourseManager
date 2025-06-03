@@ -209,6 +209,43 @@ int MyString::parseToInt() const
 	return result;
 }
 
+double MyString::parseToDouble() const
+{
+	double result = 0.0;
+	bool negative = false;
+	size_t i = 0;
+
+	if (i < getSize() && string[i] == '-') {
+		negative = true;
+		++i;
+	}
+
+	for (; i < getSize(); ++i) {
+		char c = string[i];
+		if (c < '0' || c > '9') {
+			break;
+		}
+		result = result * 10.0 + (c - '0');
+	}
+
+	if (i < getSize() && string[i] == '.') {
+		++i;
+		double fraction = 0.0;
+		double divisor = 10.0;
+		for (; i < getSize(); ++i) {
+			char c = string[i];
+			if (c < '0' || c > '9') {
+				break;
+			}
+			fraction += (c - '0') / divisor;
+			divisor *= 10.0;
+		}
+		result += fraction;
+	}
+
+	return negative ? -result : result;
+}
+
 size_t MyString::getSize() const
 {
 	return size;

@@ -1,9 +1,11 @@
 #pragma once
 #include "Command.h"
+#include "CourseManagerApp.h"
 
-class MailboxCommand :public Command
+class ChangePasswordCommand :public Command
 {
 public:
 	void execute(const MyVector<MyString>& arguments, CourseManagerApp& courseApp) const override;
 };
+
 

@@ -38,6 +38,8 @@ public:
 
 	int parseToInt()const;
 
+	double parseToDouble() const;
+
 	char& operator[](unsigned index);
 	const char& operator[](unsigned index) const;
 

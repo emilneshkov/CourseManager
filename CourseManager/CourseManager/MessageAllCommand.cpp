@@ -19,8 +19,10 @@ void MessageAllCommand::execute(const MyVector<MyString>& arguments, CourseManag
     MyString content;
     for (size_t i = 1; i < arguments.getSize(); ++i) {
         content += arguments[i];
-        if (i + 1 < arguments.getSize())
+
+        if (i + 1 < arguments.getSize()) {
             content.pushBack(' ');
+        }
     }
 
     try {

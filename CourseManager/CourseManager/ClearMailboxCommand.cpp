@@ -7,12 +7,12 @@ void ClearMailboxCommand::execute(const MyVector<MyString>& arguments, CourseMan
         return;
     }
 
-    User* user = courseApp.getCurrentUser();
-    if (!user) {
+    User* currentUser = courseApp.getCurrentUser();
+    if (!currentUser) {
         std::cout << "Error: no user logged in.\n";
         return;
     }
 
-    user->clearInbox();
+    currentUser->clearInbox();
     std::cout << "Mailbox cleared.\n";
 }

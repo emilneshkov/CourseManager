@@ -111,6 +111,18 @@ void UserRepository::remove(size_t index)
 	--size;
 }
 
+bool UserRepository::removeById(int userId)
+{
+	for (size_t i = 0; i < size; ++i) {
+		if (users[i]->getId() == userId) {
+
+			remove(i);
+			return true;
+		}
+	}
+	return false;
+}
+
 User& UserRepository::findById(int userId) const
 {
 	for (size_t i = 0; i < size; i++)
@@ -119,7 +131,7 @@ User& UserRepository::findById(int userId) const
 			return *users[i];
 		}
 	}
-	throw ("UserRepository::findById: no user with ID was found.");
+	throw std::runtime_error("UserRepository::findById: no user with ID was found.");
 }
 
 User& UserRepository::getUserByIndex(int index)

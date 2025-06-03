@@ -1,10 +1,11 @@
 #pragma once
 #include "UserRepository.h"
+#include "CourseRepository.h"
 
 class CourseManagerApp
 {
 	UserRepository userRepo;
-	//CourseRepository courseRepo;
+	CourseRepository courseRepo;
 
 	User* currentUser = nullptr;
 	bool running = true;
@@ -20,7 +21,7 @@ public:
 	void run();
 
 	UserRepository& getUserRepo();
-	//CourseRepository& getCourseRepo() { return courseRepo; }
+	CourseRepository& getCourseRepo();
 
 	User* getCurrentUser() const;
 	void   setCurrentUser(User* user);

@@ -7,7 +7,7 @@ void LoginCommand::execute(const MyVector<MyString>& arguments, CourseManagerApp
 		return;
 	}
 
-	if(courseApp.getCurrentUser()){
+	if (courseApp.getCurrentUser()) {
 		std::cout << "A user is already logged!\n";
 		return;
 	}
@@ -16,12 +16,19 @@ void LoginCommand::execute(const MyVector<MyString>& arguments, CourseManagerApp
 	const MyString& pwd = arguments[2];
 
 
-	User& user = courseApp.getUserRepo().findById(id);
-
-	if (!user.checkPassword(pwd)) {
-		std::cout << "Invalid password.\n";
-		return;
+	try {
+		User& user = courseApp.getUserRepo().findById(id);
+		if (!user.checkPassword(pwd)) {
+			std::cout << "Invalid password.\n";
+			return;
+		}
+		courseApp.setCurrentUser(&user);
+		std::cout << "Login successful!\n";
+		if (user.getLastName().getSize() > 0) {
+			std::cout << user.getFirstName().getString() << " | " << user.getLastName().getString() << " | " << user.getId() << "\n";
+		}
 	}
-	courseApp.setCurrentUser(&user);
-	std::cout << "Login successful!\n";
+	catch (const std::exception& ex) {
+		std::cout << "Failed to login: " << ex.what() << "\n";
+	}
 }

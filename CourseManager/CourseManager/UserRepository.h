@@ -24,6 +24,7 @@ public:
 
 	void add(const User& user);
 	void remove(size_t index);
+	bool removeById(int userId);
 
 	User& findById(int userId)const;
 	User& getUserByIndex(int index);

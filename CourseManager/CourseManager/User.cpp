@@ -1,5 +1,6 @@
 #include "User.h"
 #include <fstream>
+//#include "StringHelper.h"
 
 User::User(int id, const MyString& firstName, const MyString& lastName, const MyString& email, const MyString& password, const MyVector<Message>& inbox, Role role)
 {
@@ -96,31 +97,5 @@ void User::saveToFile(std::ofstream& ofs) const
 		// 5.3) timestamp (time_t)
 		time_t t = m.getTimestamp();
 		ofs.write(reinterpret_cast<const char*>(&t), sizeof(t));
-	}
-}
-
-void User::loadFromFile(std::ifstream& ifs)
-{
-	MyString roleStr;
-
-	ifs >> id
-		>> roleStr
-		>> firstName
-		>> lastName
-		>> email
-		>> password
-		>> inbox;  
-
-	if (roleStr == "Admin") {
-		role = Role::Admin;
-	}
-	else if (roleStr == "Teacher") {
-		role = Role::Teacher;
-	}
-	else if (roleStr == "Student") {
-		role = Role::Student;
-	}
-	else {
-		throw ("Unknown user role in file: " + roleStr);
 	}
 }

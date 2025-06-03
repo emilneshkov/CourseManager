@@ -34,7 +34,6 @@ public:
 	void clearInbox();
 
 	void saveToFile(std::ofstream& ofs)const;
-	void loadFromFile(std::ifstream& ifs);
 
 private:
 	int id;

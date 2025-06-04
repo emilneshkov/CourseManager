@@ -1,17 +1,23 @@
-﻿  Student.cpp
+﻿  LoginCommand.cpp
 D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\User.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Student.cpp')
+  (compiling source file 'LoginCommand.cpp')
   
 D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\User.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Student.cpp')
+  (compiling source file 'LoginCommand.cpp')
   
 D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\User.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Student.cpp')
+  (compiling source file 'LoginCommand.cpp')
   
 D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Message.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Student.cpp')
+  (compiling source file 'LoginCommand.cpp')
   
 D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Message.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Student.cpp')
+  (compiling source file 'LoginCommand.cpp')
+  
+D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Course.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'LoginCommand.cpp')
+  
+D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Course.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'LoginCommand.cpp')
   
   CourseManager.vcxproj -> D:\random things\Visual Studio Projects\CourseManager\CourseManager\x64\Debug\CourseManager.exe

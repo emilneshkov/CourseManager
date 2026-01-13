@@ -1,136 +1,82 @@
-📚 Course Manager
+# 📚 Course Manager
 
-A C++ console-based course management system for managing users, courses, assignments, grades, and internal messaging.
-The project is developed as a course project for the Introduction to Programming course at the Faculty of Mathematics and Informatics, part of Sofia University "St. Kliment Ohridski".
+A **C++ console-based course management system** for managing users, courses, assignments, grades, and internal messaging.  
+The project is developed as a **course project** for the *Introduction to Programming* course at the **Faculty of Mathematics and Informatics**, part of **Sofia University "St. Kliment Ohridski"**.
 
-The system supports three user roles: Administrator, Teacher, and Student.
+The system supports three user roles: **Administrator**, **Teacher**, and **Student**.  
 All data (users, courses, messages, assignments, grades) is stored and loaded from files at program startup.
 
-👨‍🎓 Student Information
-Name: Emil Neshkov  
-Faculty ID: 0MI0600506  
-Undergraduate Program: Software Engineering  
-University: Sofia University "St. Kliment Ohridski"  
-Semester: 1
+---
 
-🚀 Features
-👨‍💼 Administrator
+## 👨‍🎓 Student Information
 
-➕ Create teachers and students
+- **Name:** Emil Neshkov  
+- **Faculty ID:** 0MI0600506  
+- **Undergraduate Program:** Software Engineering at FMI of Sofia University "St. Kliment Ohridski"  
+- **Semester:** 1  
 
-❌ Delete users
+---
 
-🔐 Set default passwords for new users
+## **🚀 Features**
 
-📩 Send messages to all users
+### **Administrator**
+- 👤 Create teachers and students  
+- ❌ Delete users  
+- 🔐 Set default passwords for new users  
+- 📩 Send messages to all users  
+- 📬 Access all user mailboxes  
+- 👑 One administrator with ID = 0 and default password = 0000  
 
-📬 Access all user mailboxes
+### **Teacher**
+- 📚 Create courses  
+- 📝 Create assignments in their courses  
+- 👨‍🎓 Add students to courses  
+- 🔐 Set passwords for self-enrollment  
+- 📊 Grade student assignments  
+- 📥 View assignment submissions  
+- 📩 Send messages to students in their courses  
 
-👑 The administrator has a fixed ID = 0 and default password = 0000
+### **Student**
+- 🔐 Enroll in courses using a password  
+- 📝 Submit homework assignments  
+- 📊 View grades and feedback  
+- 📩 Send messages to other users  
+- 📬 View and clear mailbox  
 
-👨‍🏫 Teachers
+---
 
-📚 Create new courses
+## **🛠️ Installation**
 
-📝 Create assignments in their courses
-
-👨‍🎓 Enroll students in their courses
-
-🔐 Set enrollment passwords for courses
-
-📊 Grade student assignments
-
-📥 View all assignment submissions for their courses
-
-📩 Send messages to students in their courses
-
-👨‍🎓 Students
-
-🔐 Enroll in courses using course password
-
-📝 Submit assignment solutions
-
-📊 View their grades and feedback
-
-📩 Send messages to other users
-
-📬 View and clear their mailbox
-
-✉️ Messaging System
-
-Each user has a personal mailbox that stores messages with:
-
-Sender
-
-Content
-
-Date
-
-Time
-
-Messages are saved and loaded from files.
-Students, teachers, and administrators can communicate through the built-in messaging system.
-
-🛠️ Installation
-
-Clone the repository:
-
+### **Clone the repository:**
+```sh
 git clone https://github.com/emilneshkov/CourseManager.git
 cd CourseManager/CourseManager
-
-
-Compile the project:
-
-g++ -o course_manager main.cpp User.cpp Course.cpp Assignment.cpp Message.cpp System.cpp Utils.cpp -std=c++11
-
-
-Run the program:
-
+g++ -o course_manager main.cpp *.cpp -std=c++11
 ./course_manager
-
-📂 Project Structure
-📦 CourseManager
- ┣ 📜 main.cpp              # Entry point of the application
- ┣ 📜 User.h / User.cpp     # User base class and roles
- ┣ 📜 Admin.h / Admin.cpp   # Administrator logic
- ┣ 📜 Teacher.h / Teacher.cpp # Teacher functionality
- ┣ 📜 Student.h / Student.cpp # Student functionality
- ┣ 📜 Course.h / Course.cpp # Course management
- ┣ 📜 Assignment.h / Assignment.cpp # Homework and submissions
- ┣ 📜 Message.h / Message.cpp # Messaging system
- ┣ 📜 System.h / System.cpp # Main system controller
- ┣ 📜 Utils.h / Utils.cpp   # Helper functions
- ┣ 📜 users.txt             # Stored users
- ┣ 📜 courses.txt           # Stored courses
- ┣ 📜 messages.txt          # Stored messages
- ┣ 📜 assignments.txt       # Stored assignments and grades
- ┣ 📜 README.md             # Project documentation
-
-📝 Usage
-
-Log in with:
-
-login <ID> <password>
+```
 
 
-Perform actions depending on your role:
 
-Admin can create users and send global messages
+### **Compile the project:**
+```sh
+g++ -o course_manager main.cpp User.cpp Course.cpp Assignment.cpp Message.cpp System.cpp Utils.cpp -std=c++11
+```
+### **Run the program:**
+```sh
+./course_manager
+```
 
-Teachers manage courses and assignments
-
-Students enroll, submit homework, and view grades
-
-Log out with:
-
-logout
+---
 
 
-All changes are saved automatically and restored on the next startup.
+## **📝 Usage**
+1. **Log in using your ID and password** *(Administrator, Teacher or Student)*.
+2. **Follow the on-screen commands** to navigate through the system.
+3. **Enter valid inputs** when prompted *(IDs, course names, passwords, grades, etc.)*.
+4. **Teachers create courses and assignments** and manage enrolled students.
+5. **Students enroll in courses, submit homework and view their grades.**
+6. **All users can communicate through the built-in messaging system.**
+7. **All data is saved automatically and restored on the next program start.**
 
-📜 License
+---
 
-This project is licensed under the
-GNU General Public License v3.0 or later – see the LICENSE file for details.
-
-⭐ If you like this project, consider giving it a star on GitHub! 🚀

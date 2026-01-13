@@ -1,12 +1,101 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\random things\\Visual Studio Projects\\CourseManager\\CourseManager\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Visual Studio Projects\\CourseManager\\CourseManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\UserRepository.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|solutionrelative:CourseManager\\UserRepository.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|solutionrelative:CourseManager\\User.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\LoginCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|solutionrelative:CourseManager\\LoginCommand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\CommandFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|solutionrelative:CourseManager\\CommandFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A8F873E-209B-4DE2-BBE3-F8914101B352}|CourseManager\\CourseManager.vcxproj|solutionrelative:CourseManager\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cpp",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\UserRepository.cpp",
+              "RelativeDocumentMoniker": "CourseManager\\UserRepository.cpp",
+              "ToolTip": "D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\UserRepository.cpp",
+              "RelativeToolTip": "CourseManager\\UserRepository.cpp",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAANgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-12T12:26:18.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cpp",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\User.cpp",
+              "RelativeDocumentMoniker": "CourseManager\\User.cpp",
+              "ToolTip": "D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\User.cpp",
+              "RelativeToolTip": "CourseManager\\User.cpp",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAjwEYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-12T12:24:46.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.h",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\User.h",
+              "RelativeDocumentMoniker": "CourseManager\\User.h",
+              "ToolTip": "D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\User.h",
+              "RelativeToolTip": "CourseManager\\User.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-04T15:44:18.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommandFactory.cpp",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\CommandFactory.cpp",
+              "RelativeDocumentMoniker": "CourseManager\\CommandFactory.cpp",
+              "ToolTip": "D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\CommandFactory.cpp",
+              "RelativeToolTip": "CourseManager\\CommandFactory.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-04T15:34:31.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginCommand.cpp",
+              "DocumentMoniker": "D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\LoginCommand.cpp",
+              "RelativeDocumentMoniker": "CourseManager\\LoginCommand.cpp",
+              "ToolTip": "D:\\Visual Studio Projects\\CourseManager\\CourseManager\\CourseManager\\LoginCommand.cpp",
+              "RelativeToolTip": "CourseManager\\LoginCommand.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-04T15:31:43.446Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

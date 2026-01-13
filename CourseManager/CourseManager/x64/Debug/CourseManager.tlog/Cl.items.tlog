@@ -1,36 +1,36 @@
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\AddAssignmentCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\AddAssignmentCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\AddStudentCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\AddStudentCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\AddTeacherCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\AddTeacherCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\AddToCourseCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\AddToCourseCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Admin.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Admin.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Assignment.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Assignment.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\ChangePasswordCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\ChangePasswordCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\ClearMailboxCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\ClearMailboxCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Command.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Command.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\CommandFactory.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\CommandFactory.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Course.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Course.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\CourseManager.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\CourseManager.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\CourseManagerApp.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\CourseManagerApp.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\CourseRepository.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\CourseRepository.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\CreateCourseCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\CreateCourseCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\EnrollCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\EnrollCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Grade.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Grade.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\GradeAssignmentCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\GradeAssignmentCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\LoginCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\LoginCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\LogoutCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\LogoutCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\MailboxCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\MailboxCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Message.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Message.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\MessageAllCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\MessageAllCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\MessageCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\MessageCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\MessageStudentsCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\MessageStudentsCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\MyString.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\MyString.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\RemoveUserCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\RemoveUserCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Student.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Student.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Submission.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Submission.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\SubmitAssignmentCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\SubmitAssignmentCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Teacher.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Teacher.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\User.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\User.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\UserFactory.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\UserFactory.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\UserRepository.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\UserRepository.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\ViewAssignmentSubmissionsCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\ViewAssignmentSubmissionsCommand.obj
-D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\ViewMyGradesCommand.cpp;D:\random things\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\ViewMyGradesCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\AddAssignmentCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\AddAssignmentCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\AddStudentCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\AddStudentCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\AddTeacherCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\AddTeacherCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\AddToCourseCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\AddToCourseCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Admin.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Admin.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Assignment.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Assignment.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\ChangePasswordCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\ChangePasswordCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\ClearMailboxCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\ClearMailboxCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Command.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Command.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\CommandFactory.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\CommandFactory.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Course.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Course.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\CourseManager.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\CourseManager.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\CourseManagerApp.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\CourseManagerApp.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\CourseRepository.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\CourseRepository.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\CreateCourseCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\CreateCourseCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\EnrollCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\EnrollCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Grade.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Grade.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\GradeAssignmentCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\GradeAssignmentCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\LoginCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\LoginCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\LogoutCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\LogoutCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\MailboxCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\MailboxCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Message.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Message.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\MessageAllCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\MessageAllCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\MessageCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\MessageCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\MessageStudentsCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\MessageStudentsCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\MyString.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\MyString.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\RemoveUserCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\RemoveUserCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Student.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Student.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Submission.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Submission.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\SubmitAssignmentCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\SubmitAssignmentCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\Teacher.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\Teacher.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\User.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\User.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\UserFactory.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\UserFactory.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\UserRepository.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\UserRepository.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\ViewAssignmentSubmissionsCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\ViewAssignmentSubmissionsCommand.obj
+D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\ViewMyGradesCommand.cpp;D:\Visual Studio Projects\CourseManager\CourseManager\CourseManager\x64\Debug\ViewMyGradesCommand.obj

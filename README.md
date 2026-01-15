@@ -45,30 +45,6 @@ All data (users, courses, messages, assignments, grades) is stored and loaded fr
 
 ---
 
-## **🛠️ Installation**
-
-### **Clone the repository:**
-```sh
-git clone https://github.com/emilneshkov/CourseManager.git
-cd CourseManager/CourseManager
-g++ -o course_manager main.cpp *.cpp -std=c++11
-./course_manager
-```
-
-
-
-### **Compile the project:**
-```sh
-g++ -o course_manager main.cpp User.cpp Course.cpp Assignment.cpp Message.cpp System.cpp Utils.cpp -std=c++11
-```
-### **Run the program:**
-```sh
-./course_manager
-```
-
----
-
-
 ## **📝 Usage**
 1. **Log in using your ID and password** *(Administrator, Teacher or Student)*.
 2. **Follow the on-screen commands** to navigate through the system.
